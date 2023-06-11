@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Paras - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 95px;
+            background-color: rgb(2, 2, 57);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(31, 164, 37);
+
+        }
+
+        .left {
+            font-size: 1.35rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 10px 0;
+            font-size: 2rem;
+        }
+
+        .rigthsection img {
+            width: 80%;
+            margin: 50px 0;
+
+        }
+
+        #element {
+            color: darkgreen;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0px;
+            background-color: rgb(0, 63, 135);
+            height: 2.5px;
+            margin: 40px 80px;
+        }
+
+        .secondSection img {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .grey {
+            color: grey;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 79vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 95px;
+            width: 1px;
+            background: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 20px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 100px;
+            font-size: 10px;
+            color: grey;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        footer {
+            background-color: #093553a6;
+            height: 220px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 10px 94px;
+            padding: 10px;
+            justify-content: space-evenly;
+            font-size: 0.7rem;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 100px;
+        }
+        
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #10103f;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Paras's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <em>Paras</em> and I'm a
+                <span id="element"></span>
+                <div class="buttons" style="padding: 50px 0;">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">visit:Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dev.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="grey">Work I have done till now</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        JS developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        C# developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        C++ developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        Python developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="milstone.png" alt="">
+                    <div class="vertical-title">
+                        R developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis illum dolores quas, expedita
+                        magnam quidem obcaecati officia, magni, temporibus quam quae cum praesentium fugit veniam
+                        doloremque quaerat corrupti porro.
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Paras's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>affliate link</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Social Media</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Reddit</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>FAQ's</li>
+                    <li>Contact Support</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer ', 'C# and C++ Programmer.'],
+            typeSpeed: 75,
+        });
+    </script>
+</body>
+
+</html>
